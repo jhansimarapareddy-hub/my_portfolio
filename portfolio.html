@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Marapareddy Jahnsi - Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Georgia, serif;
+      background-color: #f5f5f5;
+      color: #222;
+    }
+
+    /* HEADER */
+    header {
+      background-color: #1a1a2e;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+      letter-spacing: 1px;
+    }
+
+    header nav a {
+      color: #ccc;
+      text-decoration: none;
+      margin-left: 25px;
+      font-size: 0.95rem;
+    }
+
+    header nav a:hover {
+      color: white;
+    }
+
+    /* ABOUT SECTION */
+    #about {
+      background-color: #ffffff;
+      padding: 60px 40px;
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    #about img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: top;
+      border: 4px solid #1a1a2e;
+    }
+
+    #about h2 {
+      font-size: 2rem;
+      margin-bottom: 8px;
+      color: #1a1a2e;
+    }
+
+    #about p {
+      font-size: 1rem;
+      color: #555;
+      line-height: 1.7;
+      max-width: 550px;
+    }
+
+    /* SHARED SECTION STYLE */
+    section:not(#about) {
+      padding: 50px 40px;
+      border-bottom: 1px solid #ddd;
+      background-color: #ffffff;
+      margin-top: 20px;
+    }
+
+    section h2 {
+      font-size: 1.6rem;
+      color: #1a1a2e;
+      margin-bottom: 25px;
+      border-left: 5px solid #1a1a2e;
+      padding-left: 12px;
+    }
+
+    /* EDUCATION */
+    .edu-item {
+      margin-bottom: 18px;
+    }
+
+    .edu-item h3 {
+      font-size: 1.05rem;
+      color: #222;
+    }
+
+    .edu-item p {
+      font-size: 0.92rem;
+      color: #666;
+      margin-top: 4px;
+    }
+
+    /* SKILLS */
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      list-style: none;
+    }
+
+    .skills-list li {
+      background-color: #1a1a2e;
+      color: white;
+      padding: 8px 20px;
+      border-radius: 4px;
+      font-size: 0.92rem;
+    }
+
+    /* CONTACT */
+    .contact-info p {
+      font-size: 1rem;
+      color: #444;
+      margin-bottom: 10px;
+    }
+
+    .contact-info a {
+      color: #1a1a2e;
+      text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    /* FOOTER */
+    footer {
+      background-color: #1a1a2e;
+      color: #aaa;
+      text-align: center;
+      padding: 18px;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Marapareddy Jhansi</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <img src="profile.jpg" alt="Marapareddy Jhansi" />
+    <div>
+      <h2>Marapareddy Jhansi</h2>
+      <p>
+        Hi! I'm Jhansi, a Computer Science student at GITAM Deemed to be University.
+        I'm passionate about web development and building clean, functional web pages.
+        Currently learning HTML, CSS, Java, and SQL.
+      </p>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <h2>Education</h2>
+    <div class="edu-item">
+      <h3>B.Tech in Computer Science</h3>
+      <p>GITAM Deemed to be University &nbsp;|&nbsp; 2023 – Present</p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Java</li>
+      <li>SQL</li>
+    </ul>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact-info">
+      <p>📧 <a href="mailto:jhansimrapareddy@gmail.com">jhansimrapareddy@gmail.com</a></p>
+      <p>📞 <a href="tel:+916303581707">+91 6303581707</a></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2024 Marapareddy Jhansi. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
